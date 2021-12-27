@@ -1,0 +1,39 @@
+.rodape{
+    background: rgba(0, 0, 0, 0.563);
+    box-shadow: 0 8px 32px 0 rgba(116, 255, 143, 0.131);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding: 20px 0;
+}
+.rodape__texto{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.rodape__redesSociais{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.linkVoltarAoTopo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.linkVoltarAoTopo:hover{
+    color: gray;
+}
+.linkVoltarAoTopo i{
+    transform: rotate(270deg);
+    margin-left: 5px;
+    font-weight: 300;
+
+    
+}

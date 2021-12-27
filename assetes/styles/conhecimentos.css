@@ -1,0 +1,126 @@
+#conhecimentos{
+    padding-bottom: 120px ;
+}
+.conhecimentos__titulo{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 80px;
+}
+.conteudo{
+    display: flex;
+    margin-top: 50px;
+}
+.informacao{
+    font-size: 21px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    width: 90%;
+    text-align: center;
+    font-weight: 400;
+}
+.conteudo__descricao{
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.conteudo__tecnologias{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+.tecnologia{
+    width: 105px;
+    border: 1px green solid;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.618);
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 200ms;
+}
+.tecnologia img{
+    width: 100%;
+
+}
+.sombra{
+    box-shadow: 0 8px 32px 0 rgba(105, 245, 110, 0.09);
+}
+.aumentarTamanho{
+    transform: scale(1.1);
+}
+.bordaClara{
+    border: 1px rgb(10, 255, 10) solid;
+}
+@media(max-width: 1220px){
+    .conteudo__descricao{
+        padding-left: 20px;
+    }
+    .conteudo__tecnologias{
+        padding-right: 20px;
+    }
+}
+@media(max-width: 950px){
+    .conhecimentos__titulo{
+        margin-bottom: 0px;
+    }
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .conteudo__descricao{
+        padding-left: 0px;
+        width: 545px;
+        justify-content: center;
+        height: 270px;
+    }
+    .conteudo__tecnologias{
+        padding-right: 0px;
+        justify-content: center;
+        width: 545px;
+    }
+    .tecnologia:nth-child(4n){
+        margin-right: 0px;
+    }
+}
+@media(max-width: 570px){
+    .conteudo__descricao{
+        width: 365px;
+        height: 370px;
+    }
+    .conteudo__tecnologias{
+        margin: 0 auto;
+        width: 365px;
+    }
+    .tecnologia{
+        width: 80px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 380px){
+    .informacao{
+        font-size: 19px;
+    }
+    .conteudo__descricao{
+        width: 310px;
+        height: 370px;
+    }
+    .conteudo__tecnologias{
+        margin: 0 auto;
+        width: 310px;
+    }
+    .tecnologia{
+        width: 70px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+        
+}

@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url('../img/fundoAreiaEscura.jpg');
+  background-size: cover;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container{
+  margin: 0 auto;
+}
+.containerModal{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.659);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  flex-direction: column;
+} 
+.abrirModal{
+  display: flex;
+
+}
+/* 
+Fontes disponíveis:
+font-family: 'Elsie Swash Caps', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
