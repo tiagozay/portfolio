@@ -16,4 +16,4 @@ setTimeout(function(){
             clearInterval(intervalo)
         }
     },150)
-}, 1000)
+}, 1500)
