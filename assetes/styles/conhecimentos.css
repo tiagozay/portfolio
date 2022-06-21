@@ -3,9 +3,9 @@
 }
 .conhecimentos__titulo{
     text-align: center;
-    font-size: 30px;
+    font-size: 31px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 80px;
 }
 .conteudo{
@@ -13,9 +13,9 @@
     margin-top: 50px;
 }
 .informacao{
-    font-size: 21px;
+    font-size: 22px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 30px;
     width: 90%;
     text-align: center;

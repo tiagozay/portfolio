@@ -2,13 +2,15 @@
     text-align: center;
     font-size: 35px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 .subtituloCategoriasCertificados{
     text-align: center;
     font-size: 29px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
 }
 .certificados{
@@ -30,7 +32,7 @@
     grid-template-columns: 290px 290px 290px 290px;   
     grid-auto-rows: 105px;   
     width: 1190px;
-    margin: 50px auto!important;
+    margin: 30px auto!important;
     gap: 10px;
 }
 #ul_certificados__li{

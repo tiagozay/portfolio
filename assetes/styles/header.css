@@ -12,7 +12,7 @@
 .header__nome{
     font-size: 30px;
     font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(80, 255, 80);
 }
 .btnAbrirMenu{
@@ -32,7 +32,7 @@
 .menu__link{
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: gray;
     margin-left: 20px;
     transition: 400ms;
