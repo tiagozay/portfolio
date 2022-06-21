@@ -79,6 +79,13 @@
     font-size: 13px;
     color: black;
     font-weight: 600;
+    transition: 200ms;
+}
+#ul_certificados__li__duracaoECertificado a:hover{
+    color: rgb(80, 80, 80);
+}
+#ul_certificados__li__duracaoECertificado a:hover span{
+    color: rgb(80, 80, 80);
 }
 #ul_certificados__li__duracaoECertificado span{
     font-size: 21px;
