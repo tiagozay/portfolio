@@ -6,12 +6,26 @@
     font-size: 31px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .conteudo{
     display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
+.conhecimento{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+.conhecimento img{
+    width: 40px;
+    margin-right: 20px;
+}
+
 .informacao{
     font-size: 22px;
     color: white;
