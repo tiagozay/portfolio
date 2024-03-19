@@ -1,14 +1,9 @@
 .sobreMim{
     max-width: 100%;
-   
-    padding: 10px 50px;
+    padding: 80px 50px;
     margin-bottom: 100px;
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(116, 255, 143, 0.131);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px green solid;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0 1px 10px 0 #00ffff64;
 }
 .sobreMim__titulo{
     font-size: 30px;
@@ -20,20 +15,20 @@
 .sobreMim__conteudo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sobreMim__texto{
     width: 750px;
     line-height: 35px;
     /* font-style: italic; */
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 300;
 }
 .sobreMim__imagem{
-    width: 300px;
-    border: 1px green solid;
+    width: 250px;
+    /* border: 1px green solid; */
 }
 @media (max-width: 1180px){
     .sobreMim{

@@ -1,19 +1,17 @@
 .header{
-    padding: 10px 40px;
-    background: rgba(255, 255, 255, 0.104);
-    box-shadow: 0 8px 32px 0 rgba(105, 245, 110, 0.09);
+    padding: 20px 40px;
+    background: rgb(3, 0, 24);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border: 1px solid rgba(50, 255, 50, 0.18);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .header__nome{
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(80, 255, 80);
+    color: white;
 }
 .btnAbrirMenu{
     display: none;
@@ -31,7 +29,7 @@
 }
 .menu__link{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     color: gray;
     margin-left: 20px;
