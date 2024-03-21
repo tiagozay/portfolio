@@ -82,7 +82,7 @@
 }
 @media(max-width: 950px){
     .conhecimentos__titulo{
-        margin-bottom: 0px;
+        /* margin-bottom: 0px; */
     }
     .conteudo{
         flex-direction: column;
